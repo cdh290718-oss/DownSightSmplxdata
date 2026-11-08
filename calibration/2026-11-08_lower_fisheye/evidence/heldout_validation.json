@@ -1,0 +1,62 @@
+{
+  "heldout_indices": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45
+  ],
+  "detected_original_indices": [
+    5,
+    15,
+    25,
+    30
+  ],
+  "not_detected_original_indices": [
+    10,
+    20,
+    35,
+    40,
+    45
+  ],
+  "number_detected": 4,
+  "mean_epipolar_px": 0.20785197955740248,
+  "median_epipolar_px": 0.18226900354096526,
+  "median_board_rmse_mm": 0.20361931174520242,
+  "positive_depth_fraction": 1,
+  "per_view_epipolar_px": [
+    0.16811357119643652,
+    0.3070996003089503,
+    0.15977031083872914,
+    0.19642443588549396
+  ],
+  "per_view_board_rmse_mm": [
+    0.20165514243116348,
+    0.20558348105924135,
+    0.1794352739258658,
+    0.30731271620972356
+  ],
+  "per_view_max_radius_px": [
+    [
+      413.0939104500549,
+      326.83698033931006
+    ],
+    [
+      502.31016898282337,
+      375.9367361980913
+    ],
+    [
+      374.42877086511186,
+      344.20292795565086
+    ],
+    [
+      504.58058691811425,
+      307.80105913483806
+    ]
+  ],
+  "note": "Parameters fitted without any of the nine held-out pairs; this model excludes held-out pairs from all fitting."
+}

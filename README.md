@@ -25,3 +25,7 @@
 ## 检查
 
 安装 `numpy` 和 `opencv-python` 后运行 `python validate_sample.py`；该检查验证图片尺寸、数据对应、相机变换与投影计算。验证结果不替代真实标定板或全视场标记检验。
+
+## 新采集的鱼眼标定
+
+[2026-11-08 左右下视鱼眼标定及验证](calibration/2026-11-08_lower_fisheye/README.md) 是调整镜头后的独立结果，不用于本仓库现有合成样例。
