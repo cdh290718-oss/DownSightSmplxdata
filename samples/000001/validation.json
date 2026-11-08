@@ -1,0 +1,20 @@
+{
+  "left": {
+    "inverse_projection_mean_error_px": 2.979585109445129e-14,
+    "inverse_projection_max_error_px": 6.629024818318272e-13,
+    "vertex_in_frame_count": 4886,
+    "render_size": [
+      1280,
+      720
+    ]
+  },
+  "right": {
+    "inverse_projection_mean_error_px": 3.077230274293681e-14,
+    "inverse_projection_max_error_px": 6.12222357532858e-13,
+    "vertex_in_frame_count": 4923,
+    "render_size": [
+      1280,
+      720
+    ]
+  }
+}

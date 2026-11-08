@@ -1,0 +1,10 @@
+{
+  "samples/000001/geometry.npz": "56b2eb6e3a9f2e71b7dc2cbfdf5bb5526ed81f862fa9a8602d4c76be81434e4f",
+  "samples/000001/left.png": "5b188f7815cfe207a261eb670665618be72e2b5ed60f01c1efd2451ac3496091",
+  "samples/000001/left_egosmplx65.npz": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+  "samples/000001/left_vertices.npz": "212e951340f7035707069c88460669a4b680cc608758e64ba1453402079cc099",
+  "samples/000001/right.png": "113fb93fa2825fcfc45a92848e74bb8734232bdcd777ab4b3b5c1442524ed35f",
+  "samples/000001/right_egosmplx65.npz": "2b9e54a177e5cc5b739e941bc5f6b9ebd94632875a616c0b4978d89fde33ee80",
+  "samples/000001/right_vertices.npz": "eb8d2a2b71265aa62952f6488eef3dcda04e4ba1841e0a9ed9307452dc1aa2a1",
+  "samples/000001/smplx_reconstruction.npz": "207c741c0d6edbb5210c5d156b53a50467fa34a9dcfa7b119b35282ddae607d5"
+}
