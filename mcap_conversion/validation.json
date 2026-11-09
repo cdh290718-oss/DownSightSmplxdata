@@ -1,0 +1,110 @@
+[
+  {
+    "frame": 0,
+    "max_vertex_difference_m": 2.682209014892578e-07,
+    "max_joint_difference_m": 2.086162567138672e-07,
+    "max_stereo_difference": 2.220446049250313e-16,
+    "hand_matrix_roundtrip_max": {
+      "left": 1.1342627592725307e-07,
+      "right": 8.718025401588392e-08
+    },
+    "hand_joint_mean_mm_after_separate_rigid_alignment": {
+      "left": 7.249341029859317,
+      "right": 6.349294014016333
+    },
+    "hand_joint_mean_mm_body_aligned": {
+      "left": 27.402088393162433,
+      "right": 27.934059926829693
+    }
+  },
+  {
+    "frame": 15,
+    "max_vertex_difference_m": 2.384185791015625e-07,
+    "max_joint_difference_m": 2.2351741790771484e-07,
+    "max_stereo_difference": 1.1102230246251565e-16,
+    "hand_matrix_roundtrip_max": {
+      "left": 6.796100165962216e-08,
+      "right": 8.00325271610447e-08
+    },
+    "hand_joint_mean_mm_after_separate_rigid_alignment": {
+      "left": 7.055863809302318,
+      "right": 6.333631378617798
+    },
+    "hand_joint_mean_mm_body_aligned": {
+      "left": 25.821223443357095,
+      "right": 28.82009836737598
+    }
+  },
+  {
+    "frame": 30,
+    "max_vertex_difference_m": 3.5762786865234375e-07,
+    "max_joint_difference_m": 2.980232238769531e-07,
+    "max_stereo_difference": 3.3306690738754696e-16,
+    "hand_matrix_roundtrip_max": {
+      "left": 7.154459447100692e-08,
+      "right": 9.180809845688032e-08
+    },
+    "hand_joint_mean_mm_after_separate_rigid_alignment": {
+      "left": 7.084156401451551,
+      "right": 6.330343984283738
+    },
+    "hand_joint_mean_mm_body_aligned": {
+      "left": 27.851332925755642,
+      "right": 23.704274774454408
+    }
+  },
+  {
+    "frame": 450,
+    "max_vertex_difference_m": 3.2782554626464844e-07,
+    "max_joint_difference_m": 2.5331974029541016e-07,
+    "max_stereo_difference": 2.0816681711721685e-16,
+    "hand_matrix_roundtrip_max": {
+      "left": 8.140658269706336e-08,
+      "right": 6.758245707505495e-08
+    },
+    "hand_joint_mean_mm_after_separate_rigid_alignment": {
+      "left": 7.009407158721412,
+      "right": 6.399576466835581
+    },
+    "hand_joint_mean_mm_body_aligned": {
+      "left": 27.601372129880026,
+      "right": 36.16675837694903
+    }
+  },
+  {
+    "frame": 900,
+    "max_vertex_difference_m": 3.5762786865234375e-07,
+    "max_joint_difference_m": 2.980232238769531e-07,
+    "max_stereo_difference": 2.220446049250313e-16,
+    "hand_matrix_roundtrip_max": {
+      "left": 7.720882533313045e-08,
+      "right": 6.586963019472591e-08
+    },
+    "hand_joint_mean_mm_after_separate_rigid_alignment": {
+      "left": 6.761305856855455,
+      "right": 6.29187226186363
+    },
+    "hand_joint_mean_mm_body_aligned": {
+      "left": 20.95543090230198,
+      "right": 29.266844624506824
+    }
+  },
+  {
+    "frame": 1350,
+    "max_vertex_difference_m": 3.5762786865234375e-07,
+    "max_joint_difference_m": 2.5331974029541016e-07,
+    "max_stereo_difference": 2.220446049250313e-16,
+    "hand_matrix_roundtrip_max": {
+      "left": 7.46647219607155e-08,
+      "right": 8.749468571878083e-08
+    },
+    "hand_joint_mean_mm_after_separate_rigid_alignment": {
+      "left": 6.778694426349872,
+      "right": 6.600358578447031
+    },
+    "hand_joint_mean_mm_body_aligned": {
+      "left": 23.007289280725725,
+      "right": 34.78331098680495
+    }
+  }
+]

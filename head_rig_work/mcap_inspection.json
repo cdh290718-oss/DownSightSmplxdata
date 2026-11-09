@@ -1,0 +1,406 @@
+{
+  "file": "0d7da991acf44b46ba41710a8960209c.mcap",
+  "file_bytes": 591587176,
+  "chunks_inspected": 4,
+  "channels": [
+    {
+      "id": 1,
+      "topic": "/robot0/sensor/camera2/compressed",
+      "schema_id": 1,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CompressedImage",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 2,
+      "topic": "/robot0/sensor/camera2/camera_info",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 3,
+      "topic": "/robot0/sensor/camera2/camera_info_resize",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 4,
+      "topic": "/robot0/handtracking/left",
+      "schema_id": 3,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.HandPointFrameInfo",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": {
+        "top_level_fields": [
+          1,
+          2,
+          7
+        ],
+        "bone_names": [
+          "LeftHand",
+          "LeftHandThumb0",
+          "LeftHandThumb1",
+          "LeftHandThumb2",
+          "LeftHandThumb3",
+          "LeftHandIndex0",
+          "LeftHandIndex1",
+          "LeftHandIndex2",
+          "LeftHandIndex3",
+          "LeftHandMiddle0",
+          "LeftHandMiddle1",
+          "LeftHandMiddle2",
+          "LeftHandMiddle3",
+          "LeftHandRing0",
+          "LeftHandRing1",
+          "LeftHandRing2",
+          "LeftHandRing3",
+          "LeftHandPinky0",
+          "LeftHandPinky1",
+          "LeftHandPinky2",
+          "LeftHandPinky3"
+        ],
+        "bone_count": 21,
+        "valid_field": [],
+        "mano": {
+          "coordinate_frame": "world_eef_pose",
+          "rotation_representation": "rotmat",
+          "translation_float64_count": 3,
+          "global_rotation_float64_count": 9,
+          "hand_pose_float64_count": 135,
+          "betas_float64_count": 10
+        }
+      }
+    },
+    {
+      "id": 5,
+      "topic": "/robot0/handtracking/right",
+      "schema_id": 3,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.HandPointFrameInfo",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": {
+        "top_level_fields": [
+          1,
+          2,
+          7
+        ],
+        "bone_names": [
+          "RightHand",
+          "RightHandThumb0",
+          "RightHandThumb1",
+          "RightHandThumb2",
+          "RightHandThumb3",
+          "RightHandIndex0",
+          "RightHandIndex1",
+          "RightHandIndex2",
+          "RightHandIndex3",
+          "RightHandMiddle0",
+          "RightHandMiddle1",
+          "RightHandMiddle2",
+          "RightHandMiddle3",
+          "RightHandRing0",
+          "RightHandRing1",
+          "RightHandRing2",
+          "RightHandRing3",
+          "RightHandPinky0",
+          "RightHandPinky1",
+          "RightHandPinky2",
+          "RightHandPinky3"
+        ],
+        "bone_count": 21,
+        "valid_field": [],
+        "mano": {
+          "coordinate_frame": "world_eef_pose",
+          "rotation_representation": "rotmat",
+          "translation_float64_count": 3,
+          "global_rotation_float64_count": 9,
+          "hand_pose_float64_count": 135,
+          "betas_float64_count": 10
+        }
+      }
+    },
+    {
+      "id": 6,
+      "topic": "robotx/motioncapture/human_pose_fuse_smooth_concat",
+      "schema_id": 4,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.PosesInFrame",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": {
+        "top_level_fields": [
+          1,
+          2,
+          3,
+          8
+        ],
+        "pose_count": 22,
+        "frame_id": "world"
+      }
+    },
+    {
+      "id": 7,
+      "topic": "/robot0/annotation_v2",
+      "schema_id": 5,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.VideoAnnotationV2",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 8,
+      "topic": "/robot0/time_range_validity",
+      "schema_id": 6,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.TimeRangeValidity",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 9,
+      "topic": "/robot0/frame_validity",
+      "schema_id": 7,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.FrameValidity",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 10,
+      "topic": "/robot0/sim/robot_info",
+      "schema_id": 8,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.RobotInfo",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 11,
+      "topic": "/robot0/vio/eef_pose",
+      "schema_id": 9,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.PoseInFrame",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 12,
+      "topic": "/robot0/vio/relative_eef_pose",
+      "schema_id": 9,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.PoseInFrame",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 13,
+      "topic": "/robot0/sensor/camera3/compressed",
+      "schema_id": 1,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CompressedImage",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 14,
+      "topic": "/robot0/sensor/camera3/camera_info",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 15,
+      "topic": "/robot0/sensor/camera3/camera_info_resize",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 16,
+      "topic": "/robot0/sensor/camera0/compressed",
+      "schema_id": 1,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CompressedImage",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 17,
+      "topic": "/robot0/sensor/camera0/camera_info",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 18,
+      "topic": "/robot0/sensor/camera5/compressed",
+      "schema_id": 1,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CompressedImage",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 35,
+      "sample": null
+    },
+    {
+      "id": 19,
+      "topic": "/robot0/sensor/camera5/camera_info",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 20,
+      "topic": "/robot0/sensor/camera1/compressed",
+      "schema_id": 1,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CompressedImage",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 34,
+      "sample": null
+    },
+    {
+      "id": 21,
+      "topic": "/robot0/sensor/camera1/camera_info",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 22,
+      "topic": "/robot0/sensor/camera4/compressed",
+      "schema_id": 1,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CompressedImage",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 34,
+      "sample": null
+    },
+    {
+      "id": 23,
+      "topic": "/robot0/sensor/camera4/camera_info",
+      "schema_id": 2,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.CameraCalibration",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 1,
+      "sample": null
+    },
+    {
+      "id": 24,
+      "topic": "/robot0/sensor/imu",
+      "schema_id": 10,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.IMUMeasurement",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 223,
+      "sample": null
+    },
+    {
+      "id": 25,
+      "topic": "/robot0/system_info",
+      "schema_id": 11,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.SystemInfo",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 2,
+      "sample": null
+    },
+    {
+      "id": 26,
+      "topic": "/robot0/sensor/audio",
+      "schema_id": 12,
+      "encoding": "protobuf",
+      "schema": {
+        "name": "foxglove.AudioData",
+        "encoding": "protobuf"
+      },
+      "messages_in_inspected_chunks": 17,
+      "sample": null
+    }
+  ]
+}
