@@ -1,0 +1,12 @@
+{
+  "01": {
+    "baseline_m": 0.15447206926298343,
+    "relative_transform_max_error": 6.94027851855239e-08,
+    "mesh_vertex_error_m": 0.0
+  },
+  "03": {
+    "baseline_m": 0.15447205671018865,
+    "relative_transform_max_error": 1.0713167875042728e-07,
+    "mesh_vertex_error_m": 0.0
+  }
+}

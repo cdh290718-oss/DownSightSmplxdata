@@ -1,0 +1,35 @@
+[
+  {
+    "name": "walk",
+    "source": "ACCAD/s007/QkWalk1_stageii.npz",
+    "frame": 153,
+    "fps": 120.0,
+    "gender": "male",
+    "source_frame_count": 307,
+    "source_global_translation": "recentered to reference pelvis for static preview",
+    "pose": "local rotations preserved; global orientation converted from source Z-up to scene Y-up by -90 degrees about X",
+    "vertices_finite": true
+  },
+  {
+    "name": "run",
+    "source": "ACCAD/Female1Running_c3d/C5_-_walk_to_run_stageii.npz",
+    "frame": 325,
+    "fps": 120.0,
+    "gender": "female",
+    "source_frame_count": 650,
+    "source_global_translation": "recentered to reference pelvis for static preview",
+    "pose": "local rotations preserved; global orientation converted from source Z-up to scene Y-up by -90 degrees about X",
+    "vertices_finite": true
+  },
+  {
+    "name": "kick",
+    "source": "ACCAD/Male2MartialArtsKicks_c3d/G18-__push_kick_right_stageii.npz",
+    "frame": 173,
+    "fps": 120.0,
+    "gender": "male",
+    "source_frame_count": 347,
+    "source_global_translation": "recentered to reference pelvis for static preview",
+    "pose": "local rotations preserved; global orientation converted from source Z-up to scene Y-up by -90 degrees about X",
+    "vertices_finite": true
+  }
+]

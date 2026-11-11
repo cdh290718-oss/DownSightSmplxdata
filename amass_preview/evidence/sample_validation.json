@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "samples": {
+    "accad_crouch": {
+      "stereo_transform_max_error": 6.94027851855239e-08,
+      "baseline_m": 0.15447206926298343,
+      "source_frame_index": 636
+    },
+    "accad_kick": {
+      "stereo_transform_max_error": 1.4344520748998946e-07,
+      "baseline_m": 0.15447205662708216,
+      "source_frame_index": 173
+    },
+    "accad_run": {
+      "stereo_transform_max_error": 1.2937560067705078e-07,
+      "baseline_m": 0.15447206528877785,
+      "source_frame_index": 325
+    },
+    "accad_swing": {
+      "stereo_transform_max_error": 1.0713167875042728e-07,
+      "baseline_m": 0.15447205671018865,
+      "source_frame_index": 512
+    },
+    "accad_walk": {
+      "stereo_transform_max_error": 1.0904789582433239e-07,
+      "baseline_m": 0.15447206903586397,
+      "source_frame_index": 153
+    },
+    "cnrs_01": {
+      "stereo_transform_max_error": 1.42885984932839e-07,
+      "baseline_m": 0.15447206475375186,
+      "source_frame_index": 370
+    }
+  }
+}
